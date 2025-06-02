@@ -1,0 +1,23 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "TypeScript setup",
+  "homepage": "https://github.com/muhammedarshadtp/TypeScript#readme",
+  "bugs": {
+    "url": "https://github.com/muhammedarshadtp/TypeScript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammedarshadtp/TypeScript.git"
+  },
+  "license": "ISC",
+  "author": "Muhammed Arshad T P",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
