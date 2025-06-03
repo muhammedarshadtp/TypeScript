@@ -4,3 +4,11 @@ function sayGreeting(messege:string){
 }
 const greet = " hello "
 sayGreeting(greet)
+
+
+function sample(a:string):string{
+    return (`this is ${a} number`)
+}
+const b="three"
+console.log(sample(b))
+
