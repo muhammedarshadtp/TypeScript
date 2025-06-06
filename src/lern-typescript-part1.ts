@@ -34,3 +34,26 @@ console.log(upperCasedNN)
 
 const upperCasedNN1 = (<string>nickname).toLocaleLowerCase()
 console.log(upperCasedNN1)
+
+// Type alias 
+
+type MagicNumber = number;
+
+const tShirt : MagicNumber = 58
+
+type Employee ={
+    id:number,
+    name: string,
+    email: string,
+    place : string,
+    salary : number,
+}
+
+const achu : Employee = {
+    id:343,
+    name:'Arshad',
+    email:'achu@gmail.com',
+    place:'kannur',
+    salary: 12345
+}
+console.log(achu)
