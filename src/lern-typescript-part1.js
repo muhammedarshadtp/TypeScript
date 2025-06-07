@@ -28,3 +28,12 @@ var achu = {
     salary: 12345
 };
 console.log(achu);
+var user = {
+    name: "arshad",
+    city: "kannur"
+};
+console.log(user);
+var sum = function (p, d) { return p + d; };
+var mult = function (p, d) { return p * d; };
+console.log(sum(2, 3));
+console.log(mult(2, 3));

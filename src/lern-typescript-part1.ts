@@ -57,3 +57,28 @@ const achu : Employee = {
     salary: 12345
 }
 console.log(achu)
+
+
+type person = {name:string}
+type address = {city : string}
+
+type User = person & address
+
+const user : User={
+    name: "arshad",
+    city:"kannur"
+}
+console.log(user)
+
+
+type calce = (a:number,b:number)=>number
+
+const sum:calce = (p,d) => p + d
+const mult:calce=(p,d)=> p * d
+
+console.log(sum(2,3))
+console.log(mult(2,3))
+
+
+
+// Interfaces
