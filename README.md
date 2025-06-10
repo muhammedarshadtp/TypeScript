@@ -17,3 +17,5 @@
  * using the "type" predicates
  * using the "discriminated unions" 
 # 
+
+# typescript all topic completed
